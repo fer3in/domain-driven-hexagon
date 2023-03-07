@@ -7,12 +7,12 @@
   "globalSetup": "<rootDir>/tests/setup/jestGlobalSetup.ts",
   "testRegex": ".e2e-spec.ts$",
   "moduleNameMapper": {
-    "@src/(.*)$": "<rootDir>/src/$1",
     "@modules/(.*)$": "<rootDir>/src/modules/$1",
+    "@src/(.*)$": "<rootDir>/src/$1",
     "@config/(.*)$": "<rootDir>/src/configs/$1",
     "@libs/(.*)$": "<rootDir>/src/libs/$1",
-    "@exceptions$": "<rootDir>/src/libs/exceptions",
-    "@tests/(.*)$": "<rootDir>/tests/$1"
+    "@tests/(.*)$": "<rootDir>/tests/$1",
+    "@exceptions$": "<rootDir>/src/libs/exceptions"
   },
   "transform": {
     "^.+\\.(t|j)s$": "ts-jest"
