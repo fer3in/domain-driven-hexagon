@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "strict": false,
+    "strict": true,
     "module": "commonjs",
-    "declaration": true,
-    "removeComments": true
+    "declaration": false,
+    "removeComments": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
