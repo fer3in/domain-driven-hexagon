@@ -1,8 +1,8 @@
 {
-  "rootDir": ".",
   "moduleFileExtensions": ["js", "json", "ts"],
-  "coverageDirectory": "./coverage",
+  "rootDir": ".",
   "testEnvironment": "node",
+  "coverageDirectory": "./coverage",
   "setupFilesAfterEnv": ["./tests/setup/jestSetupAfterEnv.ts"],
   "globalSetup": "<rootDir>/tests/setup/jestGlobalSetup.ts",
   "testRegex": ".e2e-spec.ts$",
